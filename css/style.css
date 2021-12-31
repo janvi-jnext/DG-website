@@ -7,13 +7,11 @@ body{
 a{
     text-decoration: none;
 }
-.main-container {
-    max-width: 1310px;
+
+.main-container{
+    width: 1400px;
     margin: 0 auto;
-}
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 .block-inner{
     margin: 0px 76px 0 88px;
