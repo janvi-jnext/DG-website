@@ -168,8 +168,11 @@ a{
     line-height: 35px;
     text-align: center;
 }
-.team-inner{
+.team-inner {
     background-image: url(../image/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 37px;
 }
 .team-block {
     padding: 79px 0 161px 0;
