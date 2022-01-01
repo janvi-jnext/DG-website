@@ -3,11 +3,13 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 a{
     text-decoration: none;
 }
-
 .main-container{
     width: 1400px;
     margin: 0 auto;
@@ -55,8 +57,12 @@ a{
 }
 .digi-btn{
     background: #fff;
-    padding: 14px 79px;
+    padding: 13px 61px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27px;
     margin-top: 43px;
+    text-transform: uppercase;
 }
 .youtube-link{
     display: flex;
@@ -103,6 +109,7 @@ a{
 .form-heading{
     font-size: 30px;
     line-height: 35px;
+    font-weight: 600;
 }
 .form-content {
     font-size: 14px;
@@ -157,7 +164,7 @@ a{
 .system-content{
     font-size: 28px;
     line-height: 37px;
-    margin: 40px 30px 39px 0;
+    margin: 40px 30px 0 0;
 }
 .software-content{
     margin: 40px -22px 39px 0;
@@ -237,9 +244,6 @@ a{
     outline: none;
     box-shadow: none;
 }
-.btn:hover{
-    color: #fff;
-}
 .started-btn::before {
     content: '';
     width: 110px;
@@ -288,4 +292,86 @@ a{
 }
 .logo-img{
     margin: 0 0 28px 33px;
+}
+
+/* responsive */
+@media only screen and (max-width : 1200px){
+    .block-inner{
+        margin: 0 30px;
+    }
+    .nav-menu{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .menu-icon{
+        font-size: 24px;
+    }
+    .top-heading {
+        font-size: 55px;
+        line-height: 1.2;
+    }
+    .top-heading-inner{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .digi-btn{
+        padding: 10px 45px;
+        font-size: 20px;
+        line-height: 1.2;
+    } 
+    .youtube-link-inner{
+        font-size: 40px;
+        padding: 40px 0 38px;
+    }
+    .youtube-icon {
+        font-size: 50px;
+    }
+    .app-text {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .form-inner {
+        width: 350px;
+        padding: 30px;
+    }
+    .form-heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .form-content {
+        font-size: 12px;
+        padding: 0;
+    }
+    .input-name {
+        font-size: 16px;
+    }
+    .maintenance-img{
+        width: 356px;
+    }
+    .system-content {
+        font-size: 24px;
+        line-height: 1.3;
+        margin: 20px 30px 0px 0;
+    }
+    .touch-btn {
+        margin-top: 25px;
+    }
+    .service-block-inner {
+        margin-bottom: 60px;
+    }
+    .application-inner-wrap{
+        margin: 90px 0 35px;
+    }
+    .software-content{
+        margin: 30px 0;
+    }
+    .footer-heading {
+        margin: 17px 0 0 120px;
+    }
+    .btn-started-2 {
+        margin-right: 42px;
+    }
+    .submit-btn {
+        margin:0 18px 0 0;
+    }
 }
